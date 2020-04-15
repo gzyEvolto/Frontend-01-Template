@@ -182,7 +182,7 @@ Array.prototype.map.call($0.querySelectorAll("td.named >code"), e => e.innerText
 
 ## 前端知识体系思维导图：
 
-![前端技术](E:\Frontend-01-Template\week01\imgs\前端技术.png)
+![前端技术](./imgs/前端技术.png)
 
 ### 实体补全：
 
