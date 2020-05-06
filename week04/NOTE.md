@@ -51,6 +51,9 @@
 
 - Promise的then方法以及async函数里的await（await相当于语法上的then，then在分号之后）会将一个微任务入队，添加在微任务队列的最后。
 
+- 如果遇到throw Error，后面的宏任务微任务还执行吗?
+  还执行，只打断一个微任务，不会把后面的都干掉，还可以catch
+
 - ECMAScript相关章节：RunJobs（P.104）
 
   > 拿浏览器举例：setTimeout、setInterval 这种其实不是 JS 语法本身的 API，是 JS 的宿主浏览器提供的 API， 所以是宏任务。 而 Promise 是 JS 本身自带的 API，这种就是微任务。
