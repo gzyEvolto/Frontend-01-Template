@@ -22,6 +22,8 @@ Realm包括一套内置对象，一个ECMAScript全局环境，所有加载到�
 
 ![executioncontextstack](./assets/executioncontextstack.jpg)
 
+#### Excution Context Stack
+
 **执行上下文栈:Excution Context Stack**
 
 函数进入和退出的点
@@ -34,7 +36,9 @@ Realm包括一套内置对象，一个ECMAScript全局环境，所有加载到�
 
 当栈顶元素执行完成之后，将栈顶元素弹出，栈顶指针指向下一个 EC。
 
-![ec](E:./assets/ec.jpg)Execution Context包括
+#### Execution Context
+
+![ec](./assets/ec.jpg)Execution Context包括
 
 + code evaluation state
 
@@ -84,7 +88,7 @@ Realm包括一套内置对象，一个ECMAScript全局环境，所有加载到�
 
   + 处理var声明
 
-#### 3、Environment Record
+#### Environment Record
 
 ![er](./assets/er.jpg)
 
@@ -104,7 +108,7 @@ Realm包括一套内置对象，一个ECMAScript全局环境，所有加载到�
 
 ### ISO七层网络模型
 
-![network](./assets/network.png)
+![network](./assets/network.jpg)
 
 现代网络中基本是应用、表示、会话混用的情况，http相当于三层的协议
 
