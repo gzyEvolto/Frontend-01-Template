@@ -23,7 +23,7 @@ display/position/float
 
 **主轴代表元素的排布方向，交叉轴代表跟主轴垂直的方向，元素根据先后顺序（order）排布**
 
-![](./Main&Cross-Axis.jpg)
+![](./staic/Main&Cross-Axis.jpg)
 
 **主轴为左右排布（row/row-reverse）**
 
@@ -69,6 +69,12 @@ Cross(交叉对应属性): width, x, left, right
 - 根据行高 flex-align和 item-align  确定元素具体位置
 
 ### 四. 绘制
+
+#### 真实浏览器
+
+1. render
+2. compositing（优化）
+3. draw
 
 #### 第一步-绘制单个元素
 
